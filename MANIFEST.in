@@ -3,5 +3,6 @@ recursive-include pythonbase *
 recursive-exclude pythonbase *.pyc
 recursive-include docs *
 recursive-exclude docs *.pyc
+include scripts *
 recursive-include scripts *
 recursive-exclude scripts *.pyc
