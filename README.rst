@@ -22,4 +22,4 @@ Docs setup
 #. Go up one directory (``cd..``).
 #. Release docs: ``python setup.py upload_docs --upload-dir=docs/_build/html``
 
-The Pythonbase docs are located as `documentation <http://pythonhosted.org/pythonbase>`_
+The Pythonbase docs are located as `here <http://pythonhosted.org/pythonbase>`_
