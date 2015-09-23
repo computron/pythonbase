@@ -9,7 +9,7 @@ module_dir = os.path.dirname(os.path.abspath(__file__))
 if __name__ == "__main__":
     setup(
         name='pythonbase',
-        version='0.0.1',
+        version='0.0.2',
         description='pythonbase is a skeleton for creating Python projects',
         long_description=open(os.path.join(module_dir, 'README.rst')).read(),
         url='https://github.com/computron/pythonbase',
