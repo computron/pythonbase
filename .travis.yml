@@ -1,0 +1,19 @@
+language: python
+services: mongodb
+python:
+  - "2.7"
+  - "3.4"
+install:
+  - "pip install -r requirements.txt --use-mirrors"
+before_script:
+  - python setup.py develop
+script:
+  - nosetests --nocapture --with-coverage
+after_success:
+  - coveralls
+notifications:
+  email:
+    recipients:
+      - anubhavster@gmail.com
+    on_success: change
+    on_failure: always
