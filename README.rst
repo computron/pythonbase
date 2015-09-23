@@ -22,4 +22,9 @@ Docs setup
 #. Go up one directory (``cd..``).
 #. Release docs: ``python setup.py upload_docs --upload-dir=docs/_build/html``
 
+CircleCI setup
+==============
+
+#. Log into CircleCI, and build your project.
+
 The Pythonbase docs are located as `here <http://pythonhosted.org/pythonbase>`_
