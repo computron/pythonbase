@@ -166,7 +166,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FireWorksdoc'
+htmlhelp_basename = 'pythonbasedoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -185,7 +185,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'FireWorks.tex', u'FireWorks Documentation',
+  ('index', 'pythonbase.tex', u'pythonbase Documentation',
    u'Anubhav Jain', 'manual'),
 ]
 
@@ -215,7 +215,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'fireworks', u'FireWorks Documentation',
+    ('index', 'pythonbase', u'pythonbase documentation',
      [u'Anubhav Jain'], 1)
 ]
 
