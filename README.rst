@@ -8,7 +8,7 @@ Basic setup
 ===========
 
 #. Copy the directory structure and files of Pythonbase to your project.
-#. Make changes to all these files as necessary (e.g., by grep'ing for "pythonbase" and replacing with your project).
+#. Make changes to all these files as necessary (e.g., by grep'ing for "pythonbase" and replacing with your project and also grep'ing for "Anubhav Jain" and replacing with your name).
 #. Run ``python setup.py develop`` in your new project to install it on your system
 #. Run ``python setup.py release`` to release your project to PyPI. Congratulations, your project can now be installed!
 
