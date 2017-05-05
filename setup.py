@@ -22,7 +22,7 @@ if __name__ == "__main__":
         zip_safe=False,
         #install_requires=['six>=1.5.2'],
         install_requires=[],
-        #extras_require={'plotting':['matplotlib>=1.1.1'},
+        #extras_require={'plotting':['matplotlib>=1.1.1']},
         extras_require={},
         classifiers=['Programming Language :: Python :: 2.7',
                      'Development Status :: 4 - Beta',
