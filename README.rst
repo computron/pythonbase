@@ -26,4 +26,4 @@ CircleCI setup
 
 #. Log into CircleCI, and build your project.
 
-The Pythonbase docs are located as `here <http://pythonhosted.org/pythonbase>`_
+The Pythonbase docs are located as `here <http://pythonbase.readthedocs.io/en/latest>`_
