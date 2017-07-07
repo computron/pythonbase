@@ -17,10 +17,9 @@ Basic setup
 Docs setup
 ==========
 
-#. Navigate to the ``pythonbase/docs`` directory
-#. Run ``sphinx-apidoc -o . -f ../pythonbase; make html``
-#. Go up one directory (``cd..``).
-#. Release docs: ``python setup.py upload_docs --upload-dir=docs/_build/html``
+#. Note that the docs are in the "docs" subfolder in rst format to be built by Sphinx.
+#. Import the project into readthedocs.org; hopefully, the docs should be auto-detected.
+
 
 CircleCI setup
 ==============
